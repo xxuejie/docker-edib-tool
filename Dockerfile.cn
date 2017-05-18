@@ -1,4 +1,4 @@
-FROM xxuejie/elixir-dev
+FROM xxuejie/elixir-dev-cn
 MAINTAINER Xuejie Xiao <xxuejie@gmail.com>
 
 WORKDIR /build
