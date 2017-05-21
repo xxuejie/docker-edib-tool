@@ -9,7 +9,7 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/main' > /etc/apk/repositorie
 RUN apk --no-cache add \
     bash binutils-gold ca-certificates curl \
     file gawk gcc g++ rsync libc6-compat \
-    make openssl unzip && \
+    make openssl unzip git && \
     update-ca-certificates --fresh
 
 RUN apk --no-cache add \
